@@ -8,6 +8,8 @@ Gem::Specification.new do |s|
   s.description = "The Screw Unit server conveniently serves your Screw Unit specs and implementations javascript files and css stylesheets. The Screw Unit core is located at http://github.com/nkallen/screw-unit/tree."
   s.has_rdoc = true
   s.authors = ["Brian Takita"]
+  s.bindir = 'bin'
+  s.executables = %w(screw_unit screw_unit_server)
   s.files = Dir["[A-Z]*"] +
     Dir["*.rb"] +
     Dir["lib/**/*.rb"] +
